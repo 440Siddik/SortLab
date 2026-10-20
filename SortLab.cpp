@@ -127,12 +127,12 @@ void insertionSortDescending(vector<int> &arr) {
 
 void mergeSortAscending(vector <int> &arr)
 {
-
+return 0;
 }
 
 void mergeSortDescending(vector <int> &arr)
 {
-  
+return 0;
 }
 
 int main() {
