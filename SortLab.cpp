@@ -125,6 +125,16 @@ void insertionSortDescending(vector<int> &arr) {
   }
 }
 
+void mergeSortAscending(vector <int> &arr)
+{
+
+}
+
+void mergeSortDescending(vector <int> &arr)
+{
+  
+}
+
 int main() {
 
   int choice;
