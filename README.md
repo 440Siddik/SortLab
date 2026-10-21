@@ -1,31 +1,33 @@
 # SortLab — C++ Sorting Algorithms
 
-A simple, menu-driven command-line application for practicing and exploring fundamental sorting algorithms in C++.
+A menu-driven command-line application built with C++ to practice and explore fundamental sorting algorithms.
 
 ## Features
 
-- **Selection Sort** — sorts elements by repeatedly selecting the minimum or maximum.
-- **Bubble Sort** — sorts elements by swapping adjacent elements when needed.
-- **Insertion Sort** — sorts elements by inserting each element into its correct position.
-- **Ascending and Descending Order** — choose how you want to sort the array.
-- **Interactive CLI** — select an algorithm and enter your own array.
+- **Selection Sort** — selects the minimum or maximum element in each pass.
+- **Bubble Sort** — compares and swaps adjacent elements to arrange them in order.
+- **Insertion Sort** — inserts each element into its correct position.
+- **Merge Sort** — uses the divide-and-conquer approach to sort an array recursively.
+- **Ascending & Descending Order** — sort elements in either direction.
+- **Interactive CLI** — choose a sorting algorithm and provide your own array.
 
 ## Technologies
 
-- C++
-- Standard Template Library (STL)
-- `vector` for dynamic arrays
+- **Language:** C++
+- **Standard:** C++17
+- **Library:** C++ Standard Template Library (STL)
+- **Data Structure:** `vector`
 
 ## Getting Started
 
 ### Prerequisites
 
-- A C++ compiler that supports C++11 or later, such as GCC or Clang.
+- GCC or Clang C++ compiler with C++17 support.
 - A terminal or command-line interface.
 
 ### Compile
 
-Run the following command from the project directory:
+Open a terminal in the project directory and run:
 
 ```bash
 g++ -std=c++17 SortLab.cpp -o SortLab
@@ -33,13 +35,13 @@ g++ -std=c++17 SortLab.cpp -o SortLab
 
 ### Run
 
-**Linux / macOS / Git Bash:**
+**Linux / macOS / Git Bash**
 
 ```bash
 ./SortLab
 ```
 
-**Windows Command Prompt:**
+**Windows Command Prompt**
 
 ```bash
 SortLab.exe
@@ -48,26 +50,29 @@ SortLab.exe
 ## How to Use
 
 1. Run the program.
-2. Choose a sorting algorithm from the menu.
-3. Select ascending or descending order.
-4. Enter the array size and elements.
-5. View the sorted array.
+2. Select a sorting algorithm from the menu.
+3. Choose ascending or descending order.
+4. Enter the array size.
+5. Input the array elements.
+6. View the sorted result.
 
 ## Learning Goals
 
-This project helps me practice:
+This project is helping me practice:
 
-- Implementing basic sorting algorithms.
-- Working with C++ functions and vectors.
-- Using references to modify arrays efficiently.
-- Building a menu-driven CLI application.
-- Organizing code into reusable functions.
+- Implementing sorting algorithms from scratch.
+- Understanding comparisons, swaps, and array traversal.
+- Learning recursion and the divide-and-conquer technique.
+- Working with C++ functions, references, and vectors.
+- Reducing code duplication through reusable functions.
+- Building a menu-driven command-line application.
 
 ## Future Improvements
 
-- Add more sorting algorithms, such as Merge Sort and Quick Sort.
-- Display the number of comparisons and swaps.
-- Add input validation and performance comparisons.
+- Implement additional sorting algorithms, such as Quick Sort.
+- Count comparisons and swaps.
+- Compare the time complexity and performance of different algorithms.
+- Improve input validation and user experience.
 
 ## Author
 
